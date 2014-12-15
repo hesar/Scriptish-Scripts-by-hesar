@@ -212,10 +212,10 @@ function log(text) {
 
 // we start here
 function GM_wait() {
-	if (typeof unsafeWindow.jQuery18305124430421532034 == 'undefined') {
+	if (typeof unsafeWindow.jQuery == 'undefined') {
 	    window.setTimeout(GM_wait, 100);
 	 }
-	else {$j = unsafeWindow.jQuery.noConflict(true);letsJQuery();}
+	else {$j = unsafeWindow.jQuery;letsJQuery();}
 
 }
 GM_wait();
