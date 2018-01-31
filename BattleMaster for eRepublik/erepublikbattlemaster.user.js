@@ -4,7 +4,7 @@
 // @author          hesar
 // @id              eRep BM by hesar
 // @description     completely rewritten code for new battle page
-// @include         http*://*erepublik.com/*/military/battlefield-new/*
+// @include         http*://*erepublik.com/*/military/battlefield/*
 // ==/UserScript==
 
 var multiHitRunning = false;
